@@ -3,7 +3,7 @@ import Sidebar from "../components/sidebar/Sidebar";
 
 export default function Page() {
   return (
-    <div className="bg-blue-500 h-180 ">
+    <div className="bg-blue-500 h-screen">
       <Sidebar />
       <div>
         <form className="max-w-md mx-auto pt-40 pl-10">
@@ -21,8 +21,8 @@ export default function Page() {
                 required
               />
               <label
-                for="floating_first_name"
-                className="peer-focus:font-medium absolute text-sm text-white dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                htmlFor="floating_first_name" // Changed 'for' to 'htmlFor'
+                className="peer-focus:font-medium absolute text-sm text-white dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
                 First name
               </label>
@@ -37,7 +37,7 @@ export default function Page() {
                 required
               />
               <label
-                for="floating_last_name"
+                htmlFor="floating_last_name" // Changed 'for' to 'htmlFor'
                 className="peer-focus:font-medium absolute text-sm text-white dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
                 Last name
@@ -54,7 +54,7 @@ export default function Page() {
               required
             />
             <label
-              for="floating_email"
+              htmlFor="floating_email" // Changed 'for' to 'htmlFor'
               className="peer-focus:font-medium absolute text-sm text-white dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
               Email address
@@ -70,7 +70,7 @@ export default function Page() {
               required
             />
             <label
-              for="floating_password"
+              htmlFor="floating_password" // Changed 'for' to 'htmlFor'
               className="peer-focus:font-medium absolute text-sm text-white dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
               Password
@@ -86,7 +86,7 @@ export default function Page() {
               required
             />
             <label
-              for="floating_repeat_password"
+              htmlFor="floating_repeat_password" // Changed 'for' to 'htmlFor'
               className="peer-focus:font-medium absolute text-sm text-white dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
               Confirm password
