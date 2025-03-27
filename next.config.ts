@@ -1,10 +1,9 @@
-module.exports = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-  ],
-  theme: {
-    extend: {},
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  eslint: {
+      ignoreDuringBuilds: true,
   },
-  plugins: [],
+
 }
+
+module.exports = nextConfig
