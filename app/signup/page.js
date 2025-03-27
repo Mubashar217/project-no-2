@@ -7,7 +7,7 @@ export default function Page() {
       <Sidebar />
       <div>
         <form className="max-w-md mx-auto pt-40 pl-10">
-          <div className="font-bold text-center text-4xl pb-10 text-blue-700">
+          <div className="font-bold text-center text-4xl pb-10 text-blue-700 hover:text-white cursor-pointer">
             Sign up
           </div>
           <div className="grid md:grid-cols-2 md:gap-6">
