@@ -3,7 +3,7 @@ import Sidebar from "../components/sidebar/Sidebar";
 
 export default function SignInPage() {
   return (
-    <div className="bg-blue-500 h-screen">
+    <div className="bg-blue-500 -screen">
       <Sidebar />
       <div>
         <form className="max-w-md mx-auto pt-40 pl-10">
